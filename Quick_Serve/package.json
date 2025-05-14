@@ -1,0 +1,61 @@
+{
+  "name": "app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon app.js",
+    "start:prod": "cross-env NODE_ENV=production node app.js",
+    "seed": "cross-env NODE_ENV=development node scripts/seeders/index.js",
+    "start:cron": "node scripts/runCronJobs.js",
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "author": "Abinash Sahu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "cron": "^3.1.7",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.1.0",
+    "firebase-admin": "^13.1.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.12.1",
+    "mysql2": "^3.10.1",
+    "pdfkit": "^0.16.0",
+    "sequelize": "^6.37.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "sequelize-cli": "^6.6.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-repo.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "production"
+  ],
+  "bugs": {
+    "url": "https://github.com/your-repo/issues"
+  },
+  "homepage": "https://github.com/your-repo#readme"
+}

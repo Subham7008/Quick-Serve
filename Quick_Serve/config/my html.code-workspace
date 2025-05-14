@@ -1,0 +1,75 @@
+{
+	"folders": [
+		{
+			"name": "boldServe",
+			"path": "E:/boldServe"
+		},
+		{
+			"name": "python_harry",
+			"path": "../../python_harry"
+		},
+		{
+			"name": "DSA_task_apiman",
+			"path": "../../DSA_task_apiman"
+		},
+		{
+			"name": "password_hash",
+			"path": "../../password_hash"
+		},
+		{
+			"name": "backend_node",
+			"path": "../../backend_node"
+		},
+		{
+			"name": "my html",
+			"path": "../../my html"
+		},
+		{
+			"name": "express_apiman2",
+			"path": "../../express_apiman2"
+		},
+		{
+			"name": "express_js",
+			"path": "../../express_js"
+		},
+		{
+			"name": "express_apiman3",
+			"path": "../../express_apiman3"
+		},
+		{
+			"name": "express_apiman",
+			"path": "../../express_apiman"
+		},
+		{
+			"name": "task_manager",
+			"path": "../../task_manager"
+		},
+		{
+			"name": "react_practice",
+			"path": "D:/react_practice"
+		},
+		{
+			"name": "Quick_Serve",
+			"path": ".."
+		},
+		{
+			"name": "javascript_dom",
+			"path": "E:/javascript_dom"
+		},
+		{
+			"name": "practice_projects",
+			"path": "E:/practice_projects"
+		},
+		{
+			"name": "Bold_Eats",
+			"path": "E:/Bold_Eats"
+		},
+		{
+			"name": "myntraClone",
+			"path": "E:/myntraClone"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my html"
+	}
+}
