@@ -13,7 +13,7 @@ const port = process.env.APP_PORT;
 const baseUrl = process.env.BASE_URL;
 
 app.use(cors({
-  origin: ['https://quick-serve-production.up.railway.app', 'http://localhost:5173', 'https://quick-serve-anubce8cv-subham-shankar-sahoos-projects.vercel.app'],
+  origin: ['https://quick-serve-production.up.railway.app', 'http://localhost:5173', 'https://quick-serve-anubce8cv-subham-shankar-sahoos-projects.vercel.app', 'https://quick-serve-lt8ap4a3z-subham-shankar-sahoos-projects.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
