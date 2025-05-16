@@ -34,7 +34,7 @@ const deploymentConfig = {
   },
   production: {
     cors: {
-      origin: ['https://quick-serve-production.up.railway.app', process.env.FRONTEND_URL],
+      origin: ['https://quick-serve-production.up.railway.app', process.env.FRONTEND_URL, 'https://quick-serve-anubce8cv-subham-shankar-sahoos-projects.vercel.app'],
       credentials: true
     },
     logging: {
