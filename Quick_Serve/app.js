@@ -7,6 +7,7 @@ const errorHandler = require("./middlewares/errorHandler.middleware");
 const userRouter = require("./routes/user.router");
 const shopOwnerRouter = require("./routes/shop_owners.router");
 const customerRouter = require("./routes/customer.router");
+const serviceRequestRouter = require("./routes/service_requests.router");
 
 const app = express();
 const port = process.env.APP_PORT;
@@ -24,6 +25,7 @@ app.use(sendResponse);
 app.use("/api/users", userRouter);
 app.use("/api/shop-owners", shopOwnerRouter);
 app.use("/api/customers", customerRouter);
+app.use("/api/service-requests", serviceRequestRouter);
 
 // Middleware for handling 404 errors for API routes
 app.use(handleNotFound);
