@@ -13,7 +13,7 @@ const port = process.env.APP_PORT;
 const baseUrl = process.env.BASE_URL;
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['https://quick-serve-production.up.railway.app', 'http://localhost:5173'],
   credentials: true
 }));
 app.use(express.json());

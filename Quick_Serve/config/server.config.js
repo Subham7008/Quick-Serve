@@ -2,7 +2,7 @@ const serverConfig = {
   development: {
     port: process.env.APP_PORT || 3333,
     host: '127.0.0.1',
-    baseUrl: process.env.BASE_URL || 'http://127.0.0.1:3333',
+    baseUrl: process.env.BASE_URL || 'https://quick-serve-production.up.railway.app',
     startupTimeout: 30000,
     gracefulShutdownTimeout: 30000,
     healthCheck: {

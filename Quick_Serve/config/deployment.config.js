@@ -34,7 +34,7 @@ const deploymentConfig = {
   },
   production: {
     cors: {
-      origin: process.env.FRONTEND_URL,
+      origin: ['https://quick-serve-production.up.railway.app', process.env.FRONTEND_URL],
       credentials: true
     },
     logging: {
