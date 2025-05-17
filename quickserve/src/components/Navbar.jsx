@@ -64,7 +64,7 @@ export default function Navbar() {
           {/* Logo - Desktop */}
           <Box
             component="img"
-            src="/src/Qs.png"
+            src="/favicon.png"
             alt="QuickServe Logo"
             sx={{
               height: 40,
@@ -123,7 +123,7 @@ export default function Navbar() {
           {/* Logo - Mobile */}
           <Box
             component="img"
-            src="/src/Qs.png"
+            src="/favicon.png"
             alt="QuickServe Logo"
             sx={{
               height: 40,
