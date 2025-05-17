@@ -59,7 +59,7 @@ export default function Login() {
         <Box sx={{ mb: 4, textAlign: 'center' }}>
           <Box
             component="img"
-            src="/Qs.png"
+            src="/src/Qs.png"
             alt="QuickServe Logo"
             sx={{
               height: 60,
